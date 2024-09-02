@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to Guess the Number</h1>
+
+    <div class="guess-section">
+        <input type="number" id="secretNumberInput" placeholder="As you know 42 is allways the number" />
+        <button id="submitNumber">Submit Number</button>
+        
+        
+        <button id="submitHigherGuess" style="display:none;">The guess is higher</button>
+        <button id="submitLower" style="display:none;">The guess is lower</button>
+        <button id="submitCorrect" style="display:none;">The guess is correct</button>
+        
+        <ul id="guess"></ul>
+    </div>
+    
+    <script src="GueesTheNumber.js"></script> 
+</body>
+</html>

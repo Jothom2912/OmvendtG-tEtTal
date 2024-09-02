@@ -1,0 +1,75 @@
+
+/* Basic reset to remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5eaf5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the main heading */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Container for the guess section */
+.guess-section {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Style for input field */
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: calc(100% - 24px); /* Full width minus padding and border */
+}
+
+/* Style for buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Style for buttons on hover */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the list of guesses */
+ul#guess {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#guess li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+}
